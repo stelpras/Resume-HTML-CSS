@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+.top-container{
+    padding-top: 2px;
+    background-color: steelblue;
+}
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: cursive;
+ 
+}
+h1 span{
+    background-color: darkblue;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* Style the summary section */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.top-container h2 span{
+    font-size: 24px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.ed-container h2 span{
+    font-size: 24px;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px 20px; 
+}
+.work-container h2 span{
+    font-size: 24px;
+    background-color: teal;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px 20px; 
+}
+.skills h2 span{
+    font-size: 24px;
+    background-color: yellowgreen;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.hobbies h2 span{
+    font-size: 24px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.ed-container h2{
+    margin-top: -20px;
+}
+.work-container h2{
+    margin-top: -20px;
+}
+
+/* Style the education and work experience sections */
+ul {
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+/* Style the skills section */
+ul li {
+    margin-top: 5px;
+}
+img{
+    height: 20px;
+    width: auto;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: slategrey;
+}
